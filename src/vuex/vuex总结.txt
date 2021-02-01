@@ -1,0 +1,6 @@
+vuex
+
+1. vue.use() 会自动调用 install 方法
+2. store.js 会抛出一个 install 的方法
+3. install 方法内会通过 mixin 混入的方式给 this.store 赋值
+4. vuex 是依赖于vue实现的，因为要用到vue的数据驱动、计算属性computed
